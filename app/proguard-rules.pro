@@ -1,0 +1,9 @@
+-keep class com.example.linkgrabber.** { *; }
+-keep interface com.example.linkgrabber.** { *; }
+-keepattributes Signature
+-keepattributes *Annotation*
+-keep class retrofit2.** { *; }
+-keep class okhttp3.** { *; }
+-keep class com.google.gson.** { *; }
+-keep class androidx.room.** { *; }
+-keep class dagger.hilt.** { *; }
